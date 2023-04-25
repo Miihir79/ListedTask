@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom"
+    app:startDestination="@id/nav_links">
+
+    <fragment
+        android:id="@+id/nav_links"
+        android:name="com.mihir.listedtask.ui.screens.LinksFragment"
+        android:label="fragment_links"
+        tools:layout="@layout/fragment_links" />
+    <fragment
+        android:id="@+id/nav_campaign"
+        android:name="com.mihir.listedtask.ui.screens.CampaignsFragment"
+        android:label="fragment_campaigns"
+        tools:layout="@layout/fragment_campaigns" />
+    <fragment
+        android:id="@+id/nav_courses"
+        android:name="com.mihir.listedtask.ui.screens.CoursesFragment"
+        android:label="fragment_courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.mihir.listedtask.ui.screens.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

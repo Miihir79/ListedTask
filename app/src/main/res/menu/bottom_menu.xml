@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_links"
+        android:icon="@drawable/ic_link"
+        android:title="@string/links" />
+
+    <item
+        android:id="@+id/nav_courses"
+        android:icon="@drawable/ic_magazine"
+        android:title="@string/courses" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/nav_campaign"
+        android:icon="@drawable/ic_fast_forward"
+        android:title="@string/campaigns" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_user"
+        android:title="@string/profile" />
+</menu>

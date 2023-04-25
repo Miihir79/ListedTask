@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ListedTask</string>
+    <string name="top_location">Top Location</string>
+    <string name="description_info_tile_image">info tile image</string>
+    <string name="description_link_image">link image</string>
+    <string name="description_image_copy_icon">image copy icon</string>
+    <string name="links">Links</string>
+    <string name="courses">Courses</string>
+    <string name="campaigns">Campaigns</string>
+    <string name="profile">Profile</string>
+    <string name="floating_action_button">floating action button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="description_settings_icon">settings icon</string>
+    <string name="overview">Overview</string>
+    <string name="view_analytics">View Analytics</string>
+    <string name="view_all_links">View All Links</string>
+    <string name="talk_with_us">Talk with us</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="recent_links">Recent Links</string>
+    <string name="top_links">Top Links</string>
+    <string name="clicks">Clicks</string>
+    <string name="loading">Loading...</string>
+</resources>
