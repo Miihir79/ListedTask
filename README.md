@@ -26,7 +26,7 @@ https://github.com/Miihir79/ListedTask/assets/66465511/6e911034-455c-4067-86d1-1
 
 ### ***Download the app from here👇***
 
-[![listedTask App](https://img.shields.io/badge/ListedTask✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/Miihir79/ListedTask/releases/download/1.0.0/listed-assignment-app-debug.apk)
+[![listedTask App](https://img.shields.io/badge/ListedTask✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/Miihir79/ListedTask/releases/download/1.1/ListedTask-1.1-debug-29-05.apk)
 
 ## Package Structure
     
