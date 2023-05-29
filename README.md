@@ -10,14 +10,15 @@
   
 ### Demo 
 
-https://user-images.githubusercontent.com/66465511/234409120-a1dfdefd-7007-455a-a76d-32f07ac76ef4.mp4
+https://github.com/Miihir79/ListedTask/assets/66465511/6e911034-455c-4067-86d1-1666925d654f
+
 
 
 ### Screenshots
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/66465511/234406170-17823075-8e3f-4a66-92fa-2e3fb4c4d18b.jpg" width="250">
-    <td><img src="https://user-images.githubusercontent.com/66465511/234406181-578bbf81-9018-43f4-9b4a-5c4489c1a38e.jpg" width="250">
+    <td><img src="https://github.com/Miihir79/ListedTask/assets/66465511/ee2a0a7d-5dc2-4793-aedb-5d911767cd3d" width="250">
+    <td><img src="https://github.com/Miihir79/ListedTask/assets/66465511/bfe1fbe5-e9cf-43c5-86b7-d7e4fe32e335" width="250">
     <td><img src="https://user-images.githubusercontent.com/66465511/234406187-685a41a2-ac5a-4959-ad21-c98b1a5d99f2.jpg" width="250">
   <tr>
 </table>
