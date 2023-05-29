@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginVertical="@dimen/_5sdp">
+    android:layout_marginVertical="@dimen/_8sdp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container1"
@@ -35,7 +35,7 @@
             android:layout_marginEnd="@dimen/_4sdp"
             android:ellipsize="end"
             android:maxLines="1"
-            android:fontFamily="@font/gilroy_regular"
+            android:fontFamily="@font/figtree_regular"
             android:textColor="@color/black"
             android:textSize="@dimen/_14ssp"
             app:layout_constraintEnd_toStartOf="@+id/textViewCount"
@@ -47,12 +47,12 @@
             android:id="@+id/textViewDate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_4sdp"
             android:ellipsize="end"
             android:maxLines="1"
             android:textColor="@color/text_light"
             android:textSize="@dimen/_12ssp"
-            android:fontFamily="@font/gilroy_regular"
+            android:fontFamily="@font/figtree_regular"
             app:layout_constraintEnd_toStartOf="@+id/textViewClicks"
             app:layout_constraintStart_toStartOf="@+id/textViewLinkName"
             app:layout_constraintTop_toBottomOf="@+id/textViewLinkName"
@@ -66,7 +66,7 @@
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="@dimen/_14ssp"
-            android:fontFamily="@font/gilroy_regular"
+            android:fontFamily="@font/figtree_semibold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textViewLinkName"
             tools:text="2323" />
@@ -75,21 +75,21 @@
             android:id="@+id/textViewClicks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_4sdp"
             android:text="@string/clicks"
             android:textColor="@color/text_light"
             android:textSize="@dimen/_12ssp"
-            android:fontFamily="@font/gilroy_regular"
+            android:fontFamily="@font/figtree_regular"
             app:layout_constraintEnd_toEndOf="@+id/textViewCount"
             app:layout_constraintTop_toBottomOf="@+id/textViewCount" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/copy_link_style"
+        android:paddingVertical="@dimen/_4sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/container1">
@@ -102,7 +102,7 @@
             android:layout_marginVertical="@dimen/_8sdp"
             android:ellipsize="end"
             android:maxLines="1"
-            android:fontFamily="@font/gilroy_regular"
+            android:fontFamily="@font/figtree_regular"
             android:textColor="@color/blue_text"
             android:textSize="@dimen/_14ssp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -113,8 +113,8 @@
 
         <ImageView
             android:id="@+id/imageViewCopy"
-            android:layout_width="@dimen/_18sdp"
-            android:layout_height="@dimen/_18sdp"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
             android:layout_marginEnd="@dimen/_12sdp"
             android:contentDescription="@string/description_image_copy_icon"
             app:layout_constraintBottom_toBottomOf="parent"

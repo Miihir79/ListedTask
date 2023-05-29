@@ -41,7 +41,7 @@
                 android:text="@string/loading"
                 android:textColor="@color/blue_main"
                 android:textSize="@dimen/_16ssp"
-                android:fontFamily="@font/gilroy_regular"
+                android:fontFamily="@font/figtree_regular"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

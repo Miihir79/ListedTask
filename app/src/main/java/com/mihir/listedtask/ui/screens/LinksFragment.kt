@@ -8,9 +8,12 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import com.github.mikephil.charting.components.AxisBase
+import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
+import com.github.mikephil.charting.formatter.ValueFormatter
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import com.mihir.listedtask.R
 import com.mihir.listedtask.common.API_FAILED
@@ -136,10 +139,15 @@ class LinksFragment : Fragment() {
         val gradient = ContextCompat.getDrawable(requireContext(), R.drawable.chart_gradient)
         lineDataSet.fillDrawable = gradient
         lineDataSet.setDrawCircles(false)
+        lineDataSet.setDrawValues(false)
         lineDataSet.color = ContextCompat.getColor(requireContext(), R.color.blue_main)
 
         dataSet.add(lineDataSet)
-
+        val rightAxis = binding.chart.axisRight
+        val xAxis = binding.chart.xAxis
+        xAxis.position = XAxis.XAxisPosition.BOTTOM
+        xAxis.valueFormatter = MonthValueFormatter()
+        rightAxis.isEnabled = false
         binding.chart.data = LineData(dataSet)
         binding.chart.description.isEnabled = false
         binding.chart.legend.isEnabled = false
@@ -149,5 +157,45 @@ class LinksFragment : Fragment() {
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
+    }
+}
+class MonthValueFormatter : ValueFormatter() {
+
+    override fun getAxisLabel(value: Float, axis: AxisBase?): String {
+        if (value < 5f) {
+            return "Jan"
+        } else if (value < 10f) {
+            return "Feb"
+        } else if (value < 15f) {
+            return "Mar"
+
+        } else if (value < 20f) {
+            return "Apr"
+
+        } else if (value < 25f) {
+            return "May"
+
+        } else if (value < 30f) {
+            return "Jun"
+
+        } else if (value < 35f) {
+            return "Jul"
+
+        } else if (value < 40f) {
+            return "Aug"
+
+        } else if (value < 45f) {
+            return "Sept"
+
+        } else if (value < 50f) {
+            return "Oct"
+
+        } else if (value < 55f) {
+            return "Nov"
+
+        } else {
+            return "Dec"
+
+        }
     }
 }

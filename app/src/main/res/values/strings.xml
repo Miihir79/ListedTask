@@ -22,4 +22,11 @@
     <string name="top_links">Top Links</string>
     <string name="clicks">Clicks</string>
     <string name="loading">Loading...</string>
+    <string name="img_desc_search">img search</string>
+    <string name="img_desc_emoji_wave">img emoji wave</string>
+    <string name="img_desc_icon_faq">img icon FAQ</string>
+    <string name="img_desc_icon_whatsapp">img icon whatsapp</string>
+    <string name="img_desc_icon_link">img icon link</string>
+    <string name="img_desc_icon_analytics">img icon analytics</string>
+    <string name="img_desc_icon_time">img icon time</string>
 </resources>
